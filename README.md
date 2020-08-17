@@ -92,7 +92,7 @@ e
 
 
 * ## Tasklists
-com x = checkBox preencida e com espaço = marcação vazia
+Com x = checkBox preencida e com espaço = marcação vazia
 ``` 
 - [x] Item 1
 - [ ] Item 2
@@ -124,6 +124,7 @@ com x = checkBox preencida e com espaço = marcação vazia
 
 * ## Tabela
 ```
+Desenhe a tabela desta forma modificando apenas os itens dentro dos blocos
 | topoA | topoB | topoC | topoD |
 |-------|-------|-------|-------|
 | Item1 | Item1 | Item1 | Item1 |
@@ -143,13 +144,21 @@ com x = checkBox preencida e com espaço = marcação vazia
 * ## Img e Gif
 ![](caminho até a imagem ou gif), funciona com links externos.
 ```
-caminho
+Caminho
 ![](imgegif/Octocat.png)
 ![](imgegif/e0db8690895407d039b94f75b6244035.gif)
 
-links externos
+Links externos
 ![](https://blogs.swarthmore.edu/its/wp-content/uploads/2018/09/Octocat.png)
 ![](https://i.pinimg.com/originals/e0/db/86/e0db8690895407d039b94f75b6244035.gif)
+
+Gerenciar tamanho
+<img src="link ou caminho" width="400px">
+<img src="link ou caminho" width="400px">
 ```
-![](https://blogs.swarthmore.edu/its/wp-content/uploads/2018/09/Octocat.png)
-![](https://i.pinimg.com/originals/e0/db/86/e0db8690895407d039b94f75b6244035.gif)
+<p align="center">
+<img src="https://blogs.swarthmore.edu/its/wp-content/uploads/2018/09/Octocat.png" width="400px">
+<img src="https://i.pinimg.com/originals/e0/db/86/e0db8690895407d039b94f75b6244035.gif" width="400px">
+</p>
+
+>DICA: use o html ao seu favor
